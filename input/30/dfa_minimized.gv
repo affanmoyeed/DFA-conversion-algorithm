@@ -1,0 +1,8 @@
+// FSM
+digraph {
+	node [shape=doublecircle]
+	node [color=aquamarine shape=doublecircle style=filled]
+	"['q0', 'q1', 'q2']"
+	node [shape=circle]
+	"['q0', 'q1', 'q2']" -> "['q0', 'q1', 'q2']" [label="a, b"]
+}
